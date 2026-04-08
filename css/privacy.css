@@ -1,0 +1,15 @@
+.nav-links a {
+    text-decoration: none;
+    color: #c0392b;
+    background-color: transparent;
+    padding: 0.625rem 1.125rem;
+    border: 0.125rem solid #c0392b;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #c0392b;
+    color: white;
+}

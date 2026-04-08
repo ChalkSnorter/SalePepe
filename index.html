@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brugge | Sale &amp; Pepe - Authentic Sicilian dining in Bruges</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="tel:+32474402087" class="call-button">📞 Call</a>
+
+    <header class="hero" id="home">
+        <div class="slideshow">
+            <img class="slide active" src="images/slide1.jpg" alt="Interno del ristorante">
+            <img class="slide" src="images/slide2.jpg" alt="Piatto siciliano">
+            <img class="slide" src="images/slide3.jpg" alt="Pasta">
+            <img class="slide" src="images/slide4.jpg" alt="Piatto del ristorante">
+            <img class="slide" src="images/slide5.jpg" alt="Atmosfera del ristorante">
+            <img class="slide" src="images/slide7.jpg" alt="Tavolo">
+            <img class="slide" src="images/slide8.jpg" alt="Dettaglio ristorante">
+            <img class="slide" src="images/slide9.jpg" alt="Dettaglio ristorante">
+            <img class="slide" src="images/slide10.jpg" alt="Dettaglio ristorante">
+        </div>
+
+        <div class="overlay"></div>
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Sale &amp; Pepe logo">
+                </a>
+            </div>
+
+            <div class="desktop-nav">
+                <div class="nav-links">
+                    <a href="index.html" class="active" data-i18n="nav_home">Home</a>
+                    <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                    <a href="contact.html" data-i18n="nav_contact_us">Contact Us</a>
+                    <a href="reservations.html" data-i18n="nav_reserve">Reserve</a>
+                </div>
+
+                <div class="language-switcher">
+                    <button type="button" data-lang="it">IT</button>
+                    <button type="button" data-lang="en">EN</button>
+                    <button type="button" data-lang="nl-BE">NL</button>
+                </div>
+            </div>
+
+            <div class="mobile-nav">
+                <div class="mobile-lang-dropdown">
+                    <button class="mobile-lang-btn" id="mobile-lang-toggle" type="button">
+                        <span id="mobile-lang-current">IT</span> ▼
+                    </button>
+
+                    <div class="mobile-lang-menu" id="mobile-lang-menu">
+                        <button data-lang="it">IT</button>
+                        <button data-lang="en">EN</button>
+                        <button data-lang="nl-BE">NL</button>
+                    </div>
+                </div>
+
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open menu">
+                    ☰
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-sidebar" id="mobile-sidebar">
+            <div class="mobile-sidebar-header">
+                <span>Sale &amp; Pepe</span>
+                <button class="mobile-menu-close" id="mobile-menu-close" type="button" aria-label="Close menu">✕</button>
+            </div>
+
+            <div class="mobile-sidebar-content">
+                <div class="mobile-sidebar-section">
+                    <a href="index.html" class="active" data-i18n="nav_home">Home</a>
+                    <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                    <a href="contact.html" data-i18n="nav_contact_us">Contact Us</a>
+                    <a href="reservations.html" data-i18n="nav_reserve">Reserve</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-sidebar-overlay" id="mobile-sidebar-overlay"></div>
+
+        <div class="hero-content">
+            <h1 data-i18n="home_title">Sale &amp; Pepe</h1>
+            <p data-i18n="home_subtitle">Autentica cucina siciliana con calore, gusto e stile.</p>
+            <a href="#discover-more" class="hero-button" data-i18n="discover_more">Scopri di più</a>
+        </div>
+    </header>
+
+    <section class="home-combined" id="discover-more">
+        <div class="combined-wrapper">
+            <div class="combined-container">
+                <div class="combined-left">
+                    <section class="home-hours">
+                        <div class="hours-block">
+                            <h2 data-i18n="opening_hours">Orari di apertura</h2>
+
+                            <div class="hours-card">
+                                <div class="hours-day" data-i18n="day_mon">Lun</div>
+                                <div class="hours-times">
+                                    <div class="service-row">
+                                        <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                        <span>12:00 - 14:30</span>
+                                    </div>
+                                    <div class="service-row closed-row">
+                                        <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                        <span data-i18n="closed_evening">Chiuso</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hours-card">
+                                <div class="hours-day" data-i18n="day_tue_sat">Mar - Sab</div>
+                                <div class="hours-times">
+                                    <div class="service-row">
+                                        <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                        <span>12:00 - 14:30</span>
+                                    </div>
+                                    <div class="service-row">
+                                        <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                        <span>18:00 - 20:45</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hours-card">
+                                <div class="hours-day" data-i18n="day_sun">Dom</div>
+                                <div class="hours-times">
+                                    <div class="service-row closed-row">
+                                        <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                        <span data-i18n="closed_lunch">Chiuso</span>
+                                    </div>
+                                    <div class="service-row">
+                                        <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                        <span>18:00 - 20:30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="combined-right">
+                    <section class="facebook-section">
+                        <h2 data-i18n="discover_more">Scopri di più</h2>
+                        <p data-i18n="discover_text">Seguici per i nostri ultimi piatti, momenti e aggiornamenti.</p>
+
+                        <div class="fb-container">
+                            <div id="facebook-placeholder" class="fb-placeholder">
+                                <p>Facebook content is blocked.</p>
+
+                                <button id="fb-enable-btn" class="fb-enable-btn">
+                                    Accept & Load Facebook
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section" id="about">
+        <h2 data-i18n="about_title">Chi siamo</h2>
+        <p data-i18n="about_text">
+            Da Sale &amp; Pepe riuniamo le persone attorno a ingredienti freschi, ricette siciliane tradizionali
+            e un’atmosfera accogliente. Il nostro obiettivo è offrire un’esperienza culinaria indimenticabile.
+        </p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>Sale &amp; Pepe</strong></p>
+            <p>
+                <a href="https://maps.app.goo.gl/9fiStGEBBfmFYe9s6" target="_blank" rel="noopener noreferrer">
+                    Kleine Sint-Amandsstraat 1, 8000 Brugge
+                </a>
+            </p>
+            <p>
+                <span data-i18n="label_primary">Numero principale:</span>
+                <a href="tel:+32474402087">+32 474 40 20 87</a><br>
+                <span data-i18n="label_sms">SMS &amp; WhatsApp:</span>
+                <a href="tel:+32471658955">+32 471 65 89 55</a><br>
+                <a href="mailto:salepepebrugge@hotmail.com">salepepebrugge@hotmail.com</a>
+            </p>
+            <p>&copy; 2026 Sale &amp; Pepe Ristorante</p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+        </div>
+
+        <p class="site-credit">
+            Website by <a href="https://github.com/ChalkSnorter" target="_blank" rel="noopener noreferrer">Noah Vandenberghe</a>
+        </p>
+    </footer>
+
+    <!-- Cookie-style popup -->
+    <div class="cookie-popup" id="cookie-popup">
+    <div class="cookie-popup-content">
+        <p data-i18n="cookie_text">
+            Utilizziamo cookie e tecnologie simili per migliorare la tua esperienza e per caricare contenuti di terze parti come Facebook. Puoi scegliere se consentirlo.
+        </p>
+
+        <div class="cookie-popup-actions">
+            <button id="cookie-decline" class="cookie-btn cookie-btn-secondary" data-i18n="cookie_decline">
+                Decline
+            </button>
+
+            <button id="cookie-accept" class="cookie-btn cookie-btn-primary" data-i18n="cookie_accept">
+                Accept
+            </button>
+        </div>
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>

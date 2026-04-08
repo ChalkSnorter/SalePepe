@@ -1,0 +1,102 @@
+body {
+    background-color: #f4efe8;
+}
+
+.logo a,
+.logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subpage-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("../images/slide1.jpg") center/cover no-repeat;
+    min-height: 16.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-links a:hover {
+    background: white;
+    color: black;
+}
+
+.subpage-hero {
+    text-align: center;
+    padding: 2.188rem 1.25rem 2.813rem;
+}
+
+.subpage-hero h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0 0 0.625rem;
+}
+
+.subpage-hero p {
+    color: white;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.reservation-page {
+    max-width: 75rem;
+    margin: 3.75rem auto 5rem;
+    padding: 0 1.25rem;
+}
+
+.reservation-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.reservation-card h2 {
+    font-size: 2.2rem;
+    margin: 0 0 0.75rem;
+}
+
+.reservation-text {
+    font-size: 1.05rem;
+    color: #666;
+    margin: 0 0 1.875rem;
+}
+
+.resmio-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 45rem;
+}
+
+#resmio-sale-pepe-brugge {
+    width: 100%;
+    max-width: 56.25rem;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1.375rem;
+    margin-top: 2.5rem;
+}
+
+.reservation-info {
+    margin-bottom: 1.563rem;
+}
+
+.reservation-warning {
+    margin-top: 0.938rem;
+    padding: 0.875rem 1.125rem;
+    border-radius: 0.625rem;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 0.063rem solid #ffeeba;
+    font-size: 0.95rem;
+    text-align: left;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations | Sale &amp; Pepe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reservations.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="tel:+32474402087" class="call-button">📞 Call</a>
+
+<header class="subpage-header">
+    <nav class="navbar solid-nav">
+        <div class="logo">
+    <a href="index.html">
+        <img src="images/logo.png" alt="Sale &amp; Pepe logo">
+    </a>
+</div>
+        <div class="desktop-nav">
+            <div class="nav-links">
+                <a href="index.html" data-i18n="nav_home">Home</a>
+                <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                <a href="contact.html" data-i18n="nav_contact_us">Contattaci</a>
+                <a href="reservations.html" data-i18n="nav_reserve" class="active">Prenota</a>
+            </div>
+
+            <div class="language-switcher">
+                <button type="button" data-lang="it">IT</button>
+                <button type="button" data-lang="en">EN</button>
+                <button type="button" data-lang="nl-BE">NL</button>
+            </div>
+        </div>
+
+        <div class="mobile-nav">
+            <div class="mobile-lang-dropdown">
+    <button class="mobile-lang-btn" id="mobile-lang-toggle" type="button">
+        <span id="mobile-lang-current">IT</span> ▼
+    </button>
+
+    <div class="mobile-lang-menu" id="mobile-lang-menu">
+        <button data-lang="it">IT</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="nl-BE">NL</button>
+    </div>
+</div>
+
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open menu">
+                ☰
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-sidebar" id="mobile-sidebar">
+        <div class="mobile-sidebar-header">
+            <span>Sale &amp; Pepe</span>
+            <button class="mobile-menu-close" id="mobile-menu-close" type="button" aria-label="Close menu">✕</button>
+        </div>
+
+        <div class="mobile-sidebar-content">
+            <div class="mobile-sidebar-section">
+                <a href="index.html" data-i18n="nav_home">Home</a>
+                <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                <a href="contact.html" data-i18n="nav_contact_us">Contattaci</a>
+                <a href="reservations.html" data-i18n="nav_reserve" class="active">Prenota</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-sidebar-overlay" id="mobile-sidebar-overlay"></div>
+
+    <div class="subpage-hero">
+        <h1 data-i18n="reserve_title">Prenota un tavolo</h1>
+        <p data-i18n="reserve_subtitle">Prenota il tuo tavolo online da Sale &amp; Pepe.</p>
+    </div>
+</header>
+
+    <main class="reservation-page">
+        <section class="reservation-card">
+            <h2 data-i18n="online_reservations">Prenotazioni online</h2>
+
+            <div class="reservation-info">
+                <p data-i18n="reserve_info">
+                    Seleziona la data, l’orario e il numero di ospiti qui sotto per prenotare il tuo tavolo.
+                </p>
+
+                <div class="reservation-warning" data-i18n="reserve_warning">
+                    ⚠️ Per gruppi superiori a 6 persone, vi chiediamo di contattarci direttamente per telefono o e-mail.
+                </div>
+            </div>
+
+            <div class="resmio-wrapper">
+                <div id="resmio-sale-pepe-brugge"></div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p><strong>Sale &amp; Pepe</strong></p>
+        <p>
+            <a href="https://maps.app.goo.gl/9fiStGEBBfmFYe9s6" target="_blank">
+                Kleine Sint-Amandsstraat 1, 8000 Brugge
+            </a>
+        </p>
+        <p>
+    <span data-i18n="label_primary">Numero principale:</span>
+    <a href="tel:+32474402087">+32 474 40 20 87</a><br>
+
+    <span data-i18n="label_sms">SMS &amp; WhatsApp:</span>
+    <a href="tel:+32471658955">+32 471 65 89 55</a><br>
+
+    <a href="mailto:salepepebrugge@hotmail.com">salepepebrugge@hotmail.com</a>
+    </p>
+        <p>&copy; 2026 Sale &amp; Pepe Ristorante</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+
+    <p class="site-credit">
+    Website by <a href="https://github.com/ChalkSnorter" target="_blank">Noah Vandenberghe</a>
+</p>
+</footer>
+
+    <script src="js/reservations.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

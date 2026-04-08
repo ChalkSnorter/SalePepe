@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sale &amp; Pepe Brugge</title>
+    <meta name="description" content="Contatta Sale &amp; Pepe Brugge per prenotazioni, domande e richieste speciali.">
+    <meta property="og:title" content="Contatti | Sale &amp; Pepe Brugge">
+    <meta property="og:description" content="Mettiti in contatto con Sale &amp; Pepe a Brugge.">
+    <meta property="og:image" content="images/slide1.jpg">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="tel:+32474402087" class="call-button">📞 Call</a>
+
+<header class="contact-hero">
+    <nav class="navbar">
+        <div class="logo">
+    <a href="index.html">
+        <img src="images/logo.png" alt="Sale &amp; Pepe logo">
+    </a>
+</div>
+
+        <div class="desktop-nav">
+            <div class="nav-links">
+                <a href="index.html" data-i18n="nav_home">Home</a>
+                <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                <a href="contact.html" data-i18n="nav_contact_us" class="active">Contattaci</a>
+                <a href="reservations.html" data-i18n="nav_reserve">Prenota</a>
+            </div>
+
+            <div class="language-switcher">
+                <button type="button" data-lang="it">IT</button>
+                <button type="button" data-lang="en">EN</button>
+                <button type="button" data-lang="nl-BE">NL</button>
+            </div>
+        </div>
+
+        <div class="mobile-nav">
+            <div class="mobile-lang-dropdown">
+    <button class="mobile-lang-btn" id="mobile-lang-toggle" type="button">
+        <span id="mobile-lang-current">IT</span> ▼
+    </button>
+
+    <div class="mobile-lang-menu" id="mobile-lang-menu">
+        <button data-lang="it">IT</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="nl-BE">NL</button>
+    </div>
+</div>
+
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open menu">
+                ☰
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-sidebar" id="mobile-sidebar">
+        <div class="mobile-sidebar-header">
+            <span>Sale &amp; Pepe</span>
+            <button class="mobile-menu-close" id="mobile-menu-close" type="button" aria-label="Close menu">✕</button>
+        </div>
+
+        <div class="mobile-sidebar-content">
+            <div class="mobile-sidebar-section">
+                <a href="index.html" data-i18n="nav_home">Home</a>
+                <a href="menu.html" data-i18n="nav_menu">Menu</a>
+                <a href="contact.html" data-i18n="nav_contact_us" class="active">Contattaci</a>
+                <a href="reservations.html" data-i18n="nav_reserve">Prenota</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-sidebar-overlay" id="mobile-sidebar-overlay"></div>
+
+    <div class="contact-hero-inner">
+        <h1 data-i18n="contact_title">Contattaci</h1>
+        <p data-i18n="contact_intro">Domande, eventi privati o richieste speciali? Saremo felici di aiutarvi.</p>
+    </div>
+</header>
+
+    <main>
+        <section class="contact-top">
+            <div class="contact-info-card">
+                <h2 data-i18n="contact_get_in_touch">Mettiti in contatto</h2>
+                <p data-i18n="contact_text">
+                    Mandaci un’e-mail e ti risponderemo il prima possibile.
+                    Per prenotazioni in giornata, ti chiediamo di chiamarci direttamente.
+                </p>
+
+                <div class="contact-details-list">
+                    <p><strong data-i18n="label_email">E-mail:</strong> <a href="mailto:salepepebrugge@hotmail.com">salepepebrugge@hotmail.com</a></p>
+                    <p>
+                    <strong data-i18n="label_phone">Telefono:</strong>
+                        <a href="tel:+32474402087">+32 474 40 20 87</a> /
+                        <a href="tel:+32471658955">+32 471 65 89 55</a>
+                    </p>
+                    <p><strong data-i18n="label_address">Indirizzo:</strong> Kleine Sint-Amandsstraat 1, 8000 Brugge</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/salepepebruges?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.facebook.com/salepepebruges/?locale=nl_BE" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h2 data-i18n="contact_send_message">Invia un messaggio</h2>
+
+                <form class="contact-form" action="https://formspree.io/f/mykblopr" method="POST">
+                    <input type="hidden" name="_subject" value="Nuovo messaggio di contatto dal sito Sale &amp; Pepe">
+                    <input type="hidden" name="_next" value="https://yourdomain.com/index.html">
+
+                    <textarea
+                        name="message"
+                        rows="6"
+                        placeholder="Il tuo messaggio"
+                        data-i18n-placeholder="form_message"
+                        required
+                    ></textarea>
+
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Oggetto"
+                        data-i18n-placeholder="form_subject"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Nome"
+                        data-i18n-placeholder="form_name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="E-mail"
+                        data-i18n-placeholder="form_email"
+                        required
+                    >
+
+                    <button type="submit" data-i18n="send_button">Invia</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-map-section">
+            <div class="contact-map-card">
+                <h2 data-i18n="visit_us">Vieni a trovarci</h2>
+
+                <iframe
+                    src="https://www.google.com/maps?q=Kleine+Sint-Amandsstraat+1,+8000+Brugge&output=embed"
+                    width="100%"
+                    height="420"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="contact-bottom">
+            <div class="bottom-panel">
+                <div class="hours-block">
+                    <h3 data-i18n="opening_hours">Orari di apertura</h3>
+
+                    <div class="hours-card">
+                        <div class="hours-day" data-i18n="day_mon">Lun</div>
+                        <div class="hours-times">
+                            <div class="service-row">
+                                <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                <span>12:00 - 14:30</span>
+                            </div>
+                            <div class="service-row closed-row">
+                                <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                <span data-i18n="closed_evening">Chiuso</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hours-card">
+                        <div class="hours-day" data-i18n="day_tue_sat">Mar - Sab</div>
+                        <div class="hours-times">
+                            <div class="service-row">
+                                <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                <span>12:00 - 14:00</span>
+                            </div>
+                            <div class="service-row">
+                                <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                <span>18:00 - 20:45</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hours-card">
+                        <div class="hours-day" data-i18n="day_sun">Dom</div>
+                        <div class="hours-times">
+                            <div class="service-row closed-row">
+                                <span class="service-label" data-i18n="service_lunch">Pranzo</span>
+                                <span data-i18n="closed_lunch">Chiuso</span>
+                            </div>
+                            <div class="service-row">
+                                <span class="service-label" data-i18n="service_dinner">Cena</span>
+                                <span>18:00 - 20:30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-contact-block">
+    <h3 data-i18n="nav_contact">Contatti</h3>
+
+    <div class="contact-details-list">
+        <p>
+            <a href="mailto:salepepebrugge@hotmail.com">salepepebrugge@hotmail.com</a>
+        </p>
+
+        <p>
+            <a href="https://maps.app.goo.gl/9fiStGEBBfmFYe9s6" target="_blank">
+                Kleine Sint-Amandsstraat 1, 8000 Brugge
+            </a>
+        </p>
+
+        <p>
+            <a href="tel:+32474402087">+32 474 40 20 87</a> /
+            <a href="tel:+32471658955">+32 471 65 89 55</a>
+        </p>
+    </div>
+</div>
+
+                <div class="bottom-image-block">
+                    <div class="dish-slideshow">
+                        <img class="dish-slide active" src="images/slide1.jpg" alt="Esterno del ristorante">
+                        <img class="dish-slide" src="images/slide2.jpg" alt="Piatto siciliano">
+                        <img class="dish-slide" src="images/slide3.jpg" alt="Pasta">
+                        <img class="dish-slide" src="images/slide4.jpg" alt="Piatto del ristorante">
+                        <img class="dish-slide" src="images/slide5.jpg" alt="Atmosfera del ristorante">
+                        <img class="dish-slide" src="images/slide7.jpg" alt="Tavolo">
+                        <img class="dish-slide" src="images/slide8.jpg" alt="Dettaglio del ristorante">
+                        <img class="dish-slide" src="images/slide9.jpg" alt="Dettaglio del ristorante">
+                        <img class="dish-slide" src="images/slide10.jpg" alt="Dettaglio del ristorante">
+                        
+
+                        <div class="dish-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p><strong>Sale &amp; Pepe</strong></p>
+        <p>
+            <a href="https://maps.app.goo.gl/9fiStGEBBfmFYe9s6" target="_blank">
+                Kleine Sint-Amandsstraat 1, 8000 Brugge
+            </a>
+        </p>
+        <p>
+    <span data-i18n="label_primary">Numero principale:</span>
+    <a href="tel:+32474402087">+32 474 40 20 87</a><br>
+
+    <span data-i18n="label_sms">SMS &amp; WhatsApp:</span>
+    <a href="tel:+32471658955">+32 471 65 89 55</a><br>
+
+    <a href="mailto:salepepebrugge@hotmail.com">salepepebrugge@hotmail.com</a>
+    </p>
+        <p>&copy; 2026 Sale &amp; Pepe Ristorante</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+
+    <p class="site-credit">
+    Website by <a href="https://github.com/ChalkSnorter" target="_blank">Noah Vandenberghe</a>
+</p>
+</footer>
+
+    <script src="js/contact.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
