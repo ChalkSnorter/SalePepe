@@ -121,6 +121,14 @@ const translations = {
         cookie_text: "We use cookies and similar technologies to improve your experience and to load third-party content like Facebook. You can choose whether to allow this.",
         cookie_accept: "Accept",
         cookie_decline: "Decline",
+
+        day_mon: "Mon",
+        day_tue: "Tue",
+        day_wed: "Wed",
+        day_thu: "Thu",
+        day_fri: "Fri",
+        day_sat: "Sat",
+        day_sun: "Sun",
     },
 
     "nl-BE": {
@@ -244,6 +252,14 @@ const translations = {
         cookie_text: "Wij gebruiken cookies en vergelijkbare technologieën om uw ervaring te verbeteren en om externe inhoud zoals Facebook te laden. U kunt kiezen of u dit toestaat.",
         cookie_accept: "Accepteren",
         cookie_decline: "Weigeren",
+
+        day_mon: "Ma",
+        day_tue: "Di",
+        day_wed: "Wo",
+        day_thu: "Do",
+        day_fri: "Vr",
+        day_sat: "Za",
+        day_sun: "Zo",
     },
 
     it: {
@@ -368,6 +384,14 @@ const translations = {
         cookie_text: "Utilizziamo cookie e tecnologie simili per migliorare la tua esperienza e per caricare contenuti di terze parti come Facebook. Puoi scegliere se consentirlo.",
         cookie_accept: "Accetta",
         cookie_decline: "Rifiuta",
+
+        day_mon: "Lun",
+        day_tue: "Mar",
+        day_wed: "Mer",
+        day_thu: "Gio",
+        day_fri: "Ven",
+        day_sat: "Sab",
+        day_sun: "Dom",
     }
 };
 
