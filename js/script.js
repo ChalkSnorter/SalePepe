@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (closeBtn) closeBtn.addEventListener("click", closeSidebar);
     if (overlay) overlay.addEventListener("click", closeSidebar);
 
-    const savedLanguage = localStorage.getItem("siteLanguage") || "en";
+    const savedLanguage = localStorage.getItem("siteLanguage") || "it";
 
     if (currentLangBtn) {
         currentLangBtn.textContent = savedLanguage === "nl-BE" ? "NL" : savedLanguage.toUpperCase();
