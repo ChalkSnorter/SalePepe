@@ -83,16 +83,9 @@ const translations = {
         menu_pinsa_cacio_pepe_desc: "Pecorino cheese cream and pepper",
         menu_pinsa_cacio_pepe_extra_title: "Add sausage",
 
-        menu_pinsa_bresaola_title: "Bresaola, rocket, parmesan and cherry tomatoes",
         menu_pinsa_burrata_mortadella_title: "Burrata, mortadella, pistachios and pesto",
 
-        menu_pinsa_calabrese_title: "Calabrese",
-        menu_pinsa_calabrese_desc: "Tomato sauce, eggplant, n’duja and mozzarella",
-
         menu_pinsa_pesto_rosso_title: "Red pesto, burrata, coppa and semi-dried tomatoes",
-
-        menu_pinsa_amatriciana_title: "Amatriciana",
-        menu_pinsa_amatriciana_desc: "Tomato sauce, pancetta, onion, pecorino and chili peppers",
 
         menu_pinsa_rianata_title: "Rianata",
         menu_pinsa_rianata_desc: "Fresh tomatoes, anchovies, garlic, oregano and pecorino",
@@ -214,16 +207,9 @@ const translations = {
         menu_pinsa_cacio_pepe_desc: "Pecorino kaascréme en peper",
         menu_pinsa_cacio_pepe_extra_title: "Extra salsiccia",
 
-        menu_pinsa_bresaola_title: "Bresaola, rucola, parmigiano en pomodorini",
         menu_pinsa_burrata_mortadella_title: "Burrata, mortadella, pistache en pesto",
 
-        menu_pinsa_calabrese_title: "Calabrese",
-        menu_pinsa_calabrese_desc: "Tomatensaus, aubergine, n’duja en mozzarella",
-
         menu_pinsa_pesto_rosso_title: "Pesto rosso, burrata, coppa en pomodori secchi",
-
-        menu_pinsa_amatriciana_title: "Amatriciana",
-        menu_pinsa_amatriciana_desc: "Tomatensaus, pancetta, ui, pecorino en chilipepers",
 
         menu_pinsa_rianata_title: "Rianata",
         menu_pinsa_rianata_desc: "Tomaat, ansjovis, knoflook, oregano en pecorino",
@@ -346,16 +332,9 @@ const translations = {
         menu_pinsa_cacio_pepe_desc: "Crema di pecorino e pepe",
         menu_pinsa_cacio_pepe_extra_title: "Aggiunta salsiccia",
 
-        menu_pinsa_bresaola_title: "Bresaola, rucola, parmigiano e pomodorini",
         menu_pinsa_burrata_mortadella_title: "Burrata, mortadella, pistacchi e pesto",
 
-        menu_pinsa_calabrese_title: "Calabrese",
-        menu_pinsa_calabrese_desc: "Pomodoro, melanzane, n’duja e mozzarella",
-
         menu_pinsa_pesto_rosso_title: "Pesto rosso, burrata, coppa e pomodori secchi",
-
-        menu_pinsa_amatriciana_title: "Amatriciana",
-        menu_pinsa_amatriciana_desc: "Pomodoro, pancetta, cipolla, pecorino e peperoncini",
 
         menu_pinsa_rianata_title: "Rianata",
         menu_pinsa_rianata_desc: "Pomodoro, acciughe, aglio, origano e pecorino",
