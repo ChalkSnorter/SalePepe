@@ -124,7 +124,7 @@ if (fbBtn) {
         // Save consent
         localStorage.setItem("fb-consent", "true");
 
-        loadFacebook();
+        loadFacebookEmbed();
     });
 }
 
