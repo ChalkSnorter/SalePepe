@@ -122,6 +122,22 @@ const translations = {
         day_fri: "Fri",
         day_sat: "Sat",
         day_sun: "Sun",
+
+        menu_main_meals: "Main Meals",
+        menu_desserts: "Desserts",
+
+        menu_parmigiana_title: "Parmigiana",
+        menu_parmigiana_desc: "Oven baked eggplant with tomato sauce, mozzarella and parmesan",
+
+        menu_tonno_griglia_title: "Grilled tuna",
+        menu_tonno_griglia_desc: "Grilled tuna with Pantesca salad",
+
+        menu_tagliata_title: "Tagliata of entrecôte, rocket, cherry tomatoes and baked potatoes",
+
+        menu_cannolo_title: "Cannolo siciliano",
+        menu_cheesecake_title: "Cheesecake",
+        menu_tarta_limone_title: "Lemon meringue tart",
+        menu_affogato_title: "Affogato al caffè",
     },
 
     "nl-BE": {
@@ -246,6 +262,22 @@ const translations = {
         day_fri: "Vr",
         day_sat: "Za",
         day_sun: "Zo",
+
+        menu_main_meals: "Hoofdgerechten",
+        menu_desserts: "Desserts",
+
+        menu_parmigiana_title: "Parmigiana",
+        menu_parmigiana_desc: "Ovenschotel van aubergine met tomatensaus, mozzarella en parmezaanse kaas",
+
+        menu_tonno_griglia_title: "Gegrilde tonijn",
+        menu_tonno_griglia_desc: "Gegrilde tonijn met Pantesca salade",
+
+        menu_tagliata_title: "Tagliata van entrecôte, rucola, kerstomaatjes en oven geroosterde aardappelen",
+
+        menu_cannolo_title: "Cannolo siciliano",
+        menu_cheesecake_title: "Cheesecake",
+        menu_tarta_limone_title: "Citroen-meringuetaart",
+        menu_affogato_title: "Affogato al caffè",
     },
 
     it: {
@@ -371,6 +403,22 @@ const translations = {
         day_fri: "Ven",
         day_sat: "Sab",
         day_sun: "Dom",
+
+        menu_main_meals: "Secondi ",
+        menu_desserts: "Dolci",
+
+        menu_parmigiana_title: "Parmigiana",
+        menu_parmigiana_desc: "Parmigiana di melanzane con salsa di pomodoro, mozzarella e parmigiano",
+
+        menu_tonno_griglia_title: "Tonno alla griglia",
+        menu_tonno_griglia_desc: "Tonno alla griglia con insalata pantesca",
+
+        menu_tagliata_title: "Tagliata di entrecôte con rucola, pomodorini e patate al forno",
+
+        menu_cannolo_title: "Cannolo siciliano",
+        menu_cheesecake_title: "Cheesecake",
+        menu_tarta_limone_title: "Torta al limone e meringa",
+        menu_affogato_title: "Affogato al caffè",
     }
 };
 
