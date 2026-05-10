@@ -213,3 +213,14 @@ document.addEventListener("DOMContentLoaded", () => {
         setInterval(showNextSlide, 3000);
     }
 });
+
+
+// News popup
+const newsPopup = document.getElementById("news-popup");
+const newsClose = document.getElementById("news-close");
+
+if (newsPopup && newsClose) {
+    newsClose.addEventListener("click", () => {
+        newsPopup.style.display = "none";
+    });
+}

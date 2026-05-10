@@ -1294,3 +1294,101 @@ footer {
         font-size: 1.25rem;
     }
 }
+
+.news-popup {
+    position: fixed;
+    right: 25px;
+    top: 140px;
+    width: 280px;
+    background: white;
+    border-left: 5px solid #c0392b;
+    border-radius: 14px;
+    box-shadow: 0 8px 26px rgba(0,0,0,0.18);
+    padding: 22px;
+    z-index: 998;
+}
+
+.news-popup h3 {
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+
+.news-popup p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.news-popup a {
+    display: inline-block;
+    background: #c0392b;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.news-popup.hidden {
+    display: none;
+}
+
+.news-small {
+    font-size: 0.92rem;
+    color: #777;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    .news-popup {
+        left: 20px;
+        right: 20px;
+        top: auto;
+        bottom: 90px;
+        width: auto;
+    }
+}
+
+.news-popup {
+    animation: slideIn 0.4s ease forwards;
+}
+
+/* opening */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* closing */
+.news-popup.closing {
+    animation: slideOut 0.35s ease forwards;
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+}
+
