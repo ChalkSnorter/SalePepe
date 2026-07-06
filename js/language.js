@@ -141,7 +141,41 @@ const translations = {
         news_title: "Lunch Menu",
         news_text: "Available Monday to Thursday during lunch only.",
         news_daily: "Our lunch changes daily.",
-        news_button: "View Menu"
+        news_button: "View Menu",
+
+        menu_burrata_title: "burrata",
+        menu_burrata_desc: "confit cherry tomatoes, burrata cream and pesto",
+
+        menu_mortadella_title: "mortadella with pistachios",
+
+        menu_bruschetta_ricotta_title: "bruschetta with ricotta and tomatoes",
+
+        menu_cozze_title: "mussels with lemon",
+
+        menu_pinsa_bianca_title: "pinsa bianca alla rianella",
+        menu_pinsa_bianca_desc: "mozzarella, anchovies, oregano and garlic",
+
+        menu_crostone_desc: "burrata, red prawn tartare, olive oil and lemon",
+
+        menu_spaghetti_gambero_title: "spaghetti with pesto, burrata, red prawn tartare and pistachios",
+        menu_spaghetti_gambero_desc: "pesto, burrata, red prawn tartare, pistachios and lemon zest",
+
+        menu_rigatoni_funghi_title: "rigatoni with mushrooms and sausage",
+        menu_rigatoni_funghi_desc: "mushrooms, cherry tomatoes, Italian sausage, white wine and wild fennel",
+
+        menu_spaghetti_cozze_title: "spaghetti with mussels and lemon",
+        menu_spaghetti_cozze_desc: "mussels, garlic, lemon and parsley",
+
+        menu_nduja_title: "spaghetti with 'nduja (+ €2 burrata)",
+        menu_nduja_desc: "spicy Calabrian salami",
+
+        menu_puttanesca_tonno_title: "spaghetti alla puttanesca with tuna",
+        menu_puttanesca_tonno_desc: "tomatoes, olives, fresh tuna, white wine, lemon zest and mint",
+
+        menu_trapanese_title: "spaghetti alla trapanese",
+        menu_trapanese_desc: "tomato pesto, garlic, almonds and basil",
+
+        menu_ragu_title: "rigatoni with Sicilian ragù",
     },
 
     "nl-BE": {
@@ -286,7 +320,43 @@ const translations = {
         news_title: "Lunch Menu",
         news_text: "Beschikbaar van maandag tot donderdag, alleen tijdens de lunch.",
         news_daily: "Onze lunch verandert dagelijks.",
-        news_button: "Bekijk Menu"
+        news_button: "Bekijk Menu",
+
+
+        menu_burrata_title: "burrata",
+        menu_burrata_desc: "gekonfijte kerstomaten, burratacrème en pesto",
+
+        menu_mortadella_title: "mortadella met pistache",
+
+        menu_bruschetta_ricotta_title: "bruschetta met ricotta en tomaat",
+
+        menu_cozze_title: "opengebarsten mosselen met citroen",
+
+        menu_pinsa_bianca_title: "pinsa bianca alla rianella",
+        menu_pinsa_bianca_desc: "mozzarella, ansjovis, oregano en look",
+
+        menu_crostone_title: "crostone dell'estate",
+        menu_crostone_desc: "burrata, tartaar van rode gamba, olijfolie en citroen",
+
+        menu_spaghetti_gambero_title: "spaghetti met pesto, burrata, tartaar van rode gamba en pistache",
+        menu_spaghetti_gambero_desc: "pesto, burrata, tartaar van rode gamba, pistache en citroenzeste",
+
+        menu_rigatoni_funghi_title: "rigatoni met champignons en salsiccia",
+        menu_rigatoni_funghi_desc: "champignons, kerstomaatjes, Italiaanse worst, witte wijn en wilde venkel",
+
+        menu_spaghetti_cozze_title: "spaghetti met mosselen en citroen",
+        menu_spaghetti_cozze_desc: "mosselen, look, citroen en peterselie",
+
+        menu_nduja_title: "spaghetti met 'nduja (+ €2 burrata)",
+        menu_nduja_desc: "pikante Calabrische worst",
+
+        menu_puttanesca_tonno_title: "spaghetti alla puttanesca met tonijn",
+        menu_puttanesca_tonno_desc: "tomaat, olijven, verse tonijn, witte wijn, citroenzeste en munt",
+
+        menu_trapanese_title: "spaghetti alla trapanese",
+        menu_trapanese_desc: "tomatenpesto, look, amandelen en basilicum",
+
+        menu_ragu_title: "rigatoni met Siciliaanse ragù",
     },
 
     it: {
@@ -431,7 +501,42 @@ const translations = {
         news_title: "Menu Pranzo",
         news_text: "Disponibile da lunedì a giovedì solo a pranzo.",
         news_daily: "Il nostro menu pranzo cambia ogni giorno.",
-        news_button: "Vedi Menu"
+        news_button: "Vedi Menu",
+
+        menu_burrata_title: "burrata",
+        menu_burrata_desc: "pomodorini confit, crema di burrata e pesto",
+
+        menu_mortadella_title: "mortadella con pistacchi",
+
+        menu_bruschetta_ricotta_title: "bruschetta con ricotta e pomodoro",
+
+        menu_cozze_title: "cozze scoppiate al limone",
+
+        menu_pinsa_bianca_title: "pinsa bianca alla rianella",
+        menu_pinsa_bianca_desc: "mozzarella, acciughe, origano e aglio",
+
+        menu_crostone_title: "crostone dell'estate",
+        menu_crostone_desc: "burrata, tartare di gambero rosso, olio d'oliva e limone",
+
+        menu_spaghetti_gambero_title: "spaghetti con pesto, burrata, tartare di gambero rosso e pistacchi",
+        menu_spaghetti_gambero_desc: "pesto, burrata, tartare di gambero rosso, pistacchi e scorza di limone",
+
+        menu_rigatoni_funghi_title: "rigatoni funghi e salsiccia",
+        menu_rigatoni_funghi_desc: "funghi, pomodorini, salsiccia italiana, vino bianco e finocchietto selvatico",
+
+        menu_spaghetti_cozze_title: "spaghetti con le cozze al limone",
+        menu_spaghetti_cozze_desc: "cozze, aglio, limone e prezzemolo",
+
+        menu_nduja_title: "spaghetti con 'nduja (+ €2 burrata)",
+        menu_nduja_desc: "salame piccante calabrese",
+
+        menu_puttanesca_tonno_title: "spaghetti alla puttanesca di tonno",
+        menu_puttanesca_tonno_desc: "pomodoro, olive, tonno fresco, vino bianco, scorza di limone e menta",
+
+        menu_trapanese_title: "spaghetti alla trapanese",
+        menu_trapanese_desc: "pesto di pomodoro, aglio, mandorle e basilico",
+
+        menu_ragu_title: "rigatoni al ragù siciliano",
     }
 };
 
