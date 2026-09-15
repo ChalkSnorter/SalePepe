@@ -145,7 +145,7 @@ const translations = {
         menu_secondi: "Hoofdgerechten",
         menu_desserts: "Desserts",
 
-        menu_filter_drinks: "Drankjes",
+        menu_filter_drinks: "Dranken",
         menu_filter_starters: "Voorgerechten",
         menu_filter_mains: "Hoofdgerechten",
         menu_filter_desserts: "Desserts",
