@@ -78,202 +78,79 @@
     </div>
 </header>
 
-    <main class="menu-page">
-        <section class="menu-intro">
-            <p data-i18n="menu_intro">
-                Questa è una selezione dei nostri piatti signature sempre disponibili.
-                Il nostro menu completo in ristorante offre molte altre proposte stagionali e del giorno.
-            </p>
+<div class="menu-filter-bar">
+    <button class="filter-btn active" data-category="drinks" data-i18n="menu_filter_drinks">Drinks</button>
+    <button class="filter-btn" data-category="starters" data-i18n="menu_filter_starters">Antipasti</button>
+    <button class="filter-btn" data-category="mains" data-i18n="menu_filter_mains">Piatti Principali</button>
+    <button class="filter-btn" data-category="desserts" data-i18n="menu_filter_desserts">Dessert</button>
+</div>
+
+<main class="menu-page">
+
+    <!-- STARTERS -->
+    <div class="menu-category" data-category="starters">
+        <section class="menu-section">
+            <h2 data-i18n="menu_antipasti">Antipasti</h2>
+            <div data-menu-section="antipasti"></div>
         </section>
-
-    <!-- ANTIPASTI -->
-<section class="menu-section">
-    <h2 data-i18n="menu_antipasti">Antipasti</h2>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_burrata_title">
-                Burrata
-            </h3>
-            <p data-i18n="menu_burrata_desc">
-                Pomodorini confit, crema di burrata e pesto
-            </p>
-        </div>
-        <span>€18.00</span>
     </div>
 
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_mortadella_title">
-                Mortadella con Pistacchi
-            </h3>
-        </div>
-        <span>€15.00</span>
+    <!-- MAINS (pasta + secondi) -->
+    <div class="menu-category" data-category="mains">
+        <section class="menu-section">
+            <h2 data-i18n="menu_pasta_salepepe">Le Paste di Sale &amp; Pepe</h2>
+            <div data-menu-section="pasta"></div>
+        </section>
+        <section class="menu-section">
+            <h2 data-i18n="menu_secondi">Secondi</h2>
+            <div data-menu-section="secondi"></div>
+        </section>
     </div>
 
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_bruschetta_ricotta_title">
-                Bruschetta Ricotta e Pomodoro
-            </h3>
-        </div>
-        <span>€16.00</span>
+    <!-- DESSERTS -->
+    <div class="menu-category" data-category="desserts">
+        <section class="menu-section">
+            <h2 data-i18n="menu_desserts">Desserts</h2>
+            <div data-menu-section="desserts"></div>
+        </section>
     </div>
 
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_cozze_title">
-                Cozze Scoppiate al Limone
-            </h3>
+    <!-- DRINKS -->
+    <div class="menu-category" data-category="drinks">
+        <div class="drinks-layout">
+            <nav class="drinks-subnav">
+                <button data-target="block-aperitivi-mocktail" class="active" data-i18n="menu_aperitivi_mocktail">Aperitivi &amp; Mocktail</button>
+                <button data-target="block-birre" data-i18n="menu_birre">Birre</button>
+                <button data-target="block-bibite" data-i18n="menu_bibite">Bibite</button>
+                <button data-target="block-digestivi" data-i18n="menu_digestivi">Digestivi</button>
+            </nav>
+
+            <div class="drinks-content">
+                <section class="menu-section" id="block-aperitivi-mocktail">
+                    <h2 data-i18n="menu_aperitivi_mocktail">Aperitivi &amp; Mocktail</h2>
+                    <div data-menu-section="aperitivi"></div>
+                    <div data-menu-section="mocktail"></div>
+                </section>
+
+                <section class="menu-section" id="block-birre">
+                    <h2 data-i18n="menu_birre">Birre</h2>
+                    <div data-menu-section="birre"></div>
+                </section>
+
+                <section class="menu-section" id="block-bibite">
+                    <h2 data-i18n="menu_bibite">Bibite</h2>
+                    <div data-menu-section="bibite"></div>
+                </section>
+
+                <section class="menu-section" id="block-digestivi">
+                    <h2 data-i18n="menu_digestivi">Digestivi</h2>
+                    <div data-menu-section="digestivi"></div>
+                </section>
+            </div>
         </div>
-        <span>€18.00</span>
     </div>
 
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_pinsa_bianca_title">
-                Pinsa Bianca alla Rianella
-            </h3>
-            <p data-i18n="menu_pinsa_bianca_desc">
-                Mozzarella, acciuga , oregano, aglio
-            </p>
-        </div>
-        <span>€17.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_crostone_title">
-                Crostone dell'estate
-            </h3>
-            <p data-i18n="menu_crostone_desc">
-                Burrata, tartare di gambero rosso, olio d'oliva e limone
-            </p>
-        </div>
-        <span>€20.00</span>
-    </div>
-</section>
-
-<!-- PASTA -->
-<section class="menu-section">
-    <h2 data-i18n="menu_pasta_salepepe">
-        Le Paste di Sale &amp; Pepe
-    </h2>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_spaghetti_gambero_title">
-                Spaghetti con Pesto, Burrata, Tartare di Gambero e Pistacchi
-            </h3>
-            <p data-i18n="menu_spaghetti_gambero_desc">
-                Pesto, burrata, tartare di gambero, pistacchi e scorza di limone
-            </p>
-        </div>
-        <span>€26.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_rigatoni_funghi_title">
-                Rigatoni Funghi e Salsiccia
-            </h3>
-            <p data-i18n="menu_rigatoni_funghi_desc">
-                Funghi, pomodorini, salsiccia italiana, vino bianco e finocchietto selvatico
-            </p>
-        </div>
-        <span>€25.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_spaghetti_cozze_title">
-                Spaghetti con le Cozze al Limone
-            </h3>
-            <p data-i18n="menu_spaghetti_cozze_desc">
-                Cozze, aglio, limone e prezzemolo
-            </p>
-        </div>
-        <span>€25.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_nduja_title">
-                Spaghetti con ’Nduja (+ €2 burrata)
-            </h3>
-            <p data-i18n="menu_nduja_desc">
-                Salame piccante calabrese
-            </p>
-        </div>
-        <span>€25.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_puttanesca_tonno_title">
-                Spaghetti alla Puttanesca di Tonno
-            </h3>
-            <p data-i18n="menu_puttanesca_tonno_desc">
-                Pomodoro, olive, tonno fresco, vino bianco, scorza di limone e menta
-            </p>
-        </div>
-        <span>€25.50</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_trapanese_title">
-                Spaghetti alla Trapanese
-            </h3>
-            <p data-i18n="menu_trapanese_desc">
-                Pesto di pomodoro, aglio, mandorle e basilico
-            </p>
-        </div>
-        <span>€23.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_ragu_title">
-                Rigatoni al Ragù Siciliano
-            </h3>
-        </div>
-        <span>€23.00</span>
-    </div>
-</section>
-
-<section class="menu-section">
-    <h2 data-i18n="menu_desserts">Desserts</h2>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_cannolo_title">Cannolo siciliano</h3>
-        </div>
-        <span>€9.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_cheesecake_title">Cheesecake</h3>
-        </div>
-        <span>€9.50</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_tarta_limone_title">Tarta limone meringa</h3>
-        </div>
-        <span>€10.00</span>
-    </div>
-
-    <div class="menu-item">
-        <div>
-            <h3 data-i18n="menu_affogato_title">Affogato al caffè</h3>
-        </div>
-        <span>€9.50</span>
-    </div>
-</section>
-    </main>
+</main>
 
 <footer>
     <div class="footer-content">
@@ -301,7 +178,12 @@
 </p>
 </footer>
 
+    <!-- PapaParse: robust CSV parsing (handles quoted commas, line breaks in descriptions, etc.) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <script src="js/language.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/menu-filter.js"></script>
+    <script src="js/menu-loader.js"></script>
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
 </body>
 </html>
