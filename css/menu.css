@@ -295,3 +295,118 @@
     padding-top: 0.5rem;
     border-top: 1px solid #e5ddd3;
 }
+
+/* =====================================================
+   FINAL MOBILE MENU FIX
+   ===================================================== */
+
+@media (max-width: 48rem) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    main.menu-page {
+        display: block;
+        width: 100vw ;
+        max-width: 100vw ;
+        min-width: 0 ;
+
+        margin: 0 ;
+
+        padding: 2rem 0.75rem 4rem ;
+
+        box-sizing: border-box;
+    }
+
+    .menu-category {
+        width: 100% ;
+        max-width: 100% ;
+        min-width: 0 ;
+    }
+
+    .menu-category.active {
+        display: block;
+        width: 100%;
+        max-width: 100% ;
+    }
+
+    .drinks-layout {
+        display: flex;
+        flex-direction: column;
+
+        width: 100% ;
+        max-width: 100%;
+        min-width: 0;
+
+        margin: 0;
+        padding: 0;
+
+        gap: 1rem;
+    }
+
+    .drinks-subnav {
+        display: flex;
+        flex-direction: row;
+
+        width: 100% ;
+        max-width: 100%;
+        min-width: 0 ;
+
+        margin: 0;
+        padding: 0 0 0.5rem;
+
+        overflow-x: auto;
+        justify-content: flex-start;
+
+        box-sizing: border-box;
+    }
+
+    .drinks-content {
+        display: block;
+
+        width: 100% ;
+        max-width: 100%;
+        min-width: 0;
+
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    .drinks-content .menu-section {
+        display: block;
+
+        width: 100% ;
+        max-width: 100%;
+        min-width: 0;
+
+        margin: 0 0 1.25rem 0;
+        padding: 1.25rem;
+
+        box-sizing: border-box;
+    }
+
+    .menu-item {
+        width: 100%;
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        box-sizing: border-box;
+    }
+
+    .menu-item > div:first-child {
+        min-width: 0;
+        flex: 1;
+    }
+
+    .menu-item span {
+        flex-shrink: 0;
+    }
+}
